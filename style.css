@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 
 *{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
-
 .nav{
   background-color: yellow;
   padding: 20px;
@@ -12,14 +14,14 @@
 
 
 .nav__caja{
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
 }
 
 .nav__caja--li{
   margin-top: 20px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   display: flex;
   justify-content: end;
 
@@ -31,16 +33,59 @@
   justify-content: space-around;
 }
 
-.nav__caja--title{
-  background-color: burlywood;
+.nav__caja--title {
+  /* background-color: burlywood; */
   margin-top: 20px;
+  position: relative;
 }
-.nav__caja--tex{
-  background-color: aqua;
-  width: 500px;
+.title {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.text__rayas {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+.text__normal{
+  font-size: 40px;
+}
+.nav__caja--tex {
+  /* background-color: aqua; */
+  width: 1000px;
   height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 10;
+}
+
+.nav__boton{
+  padding: 20px;
+  width: 200px;
+  background-color: transparent;
+}
+
+.nav__img--2 {
+  position: relative;
+  left: 850px;
+  bottom: 800px;
+}
+.nav__img--3{
+  position: relative;
+  left: 750px;
+  bottom: 200px;
+}
+.nav__img--5{
+  position: relative;
+  left: 850px;
+  bottom: 200px;
+}
+.nav__img--4{
+  position: relative;
+  left:800px;
+  bottom: 200px;
 }
